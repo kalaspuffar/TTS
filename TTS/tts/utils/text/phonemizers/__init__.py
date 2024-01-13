@@ -33,6 +33,7 @@ DEF_LANG_TO_PHONEMIZER.update(_new_dict)
 
 # Force default for some languages
 DEF_LANG_TO_PHONEMIZER["en"] = DEF_LANG_TO_PHONEMIZER["en-us"]
+DEF_LANG_TO_PHONEMIZER["sv"] = DEF_LANG_TO_PHONEMIZER["sv-se"]
 DEF_LANG_TO_PHONEMIZER["zh-cn"] = ZH_CN_Phonemizer.name()
 DEF_LANG_TO_PHONEMIZER["ko-kr"] = KO_KR_Phonemizer.name()
 DEF_LANG_TO_PHONEMIZER["bn"] = BN_Phonemizer.name()
