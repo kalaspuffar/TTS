@@ -37,7 +37,7 @@ pypinyin
 # korean
 hangul_romanize
 # gruut+supported langs
-gruut[de,es,fr]==2.2.3
+gruut[de,es,fr,sv]==2.3.4
 # deps for korean
 jamo
 nltk
